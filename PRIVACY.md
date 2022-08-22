@@ -7,7 +7,8 @@ we only cache request for
 - 4 hours playername searches of stats request
 - 1 hour for status arrays of games
 - 10 minutes for everything else
-to keep the amount of request lower, which are of course automatically removed.
+
+This is to keep the amount of request lower, which are of course automatically removed.
 
 we only save info of a user when he sets a username with the /bfsetme command for easier use of commands: "/bf1 stats pc me"
 for that we added a command to unset the "me" option with /bfunsetme.
